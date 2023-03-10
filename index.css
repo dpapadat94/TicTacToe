@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+}
+.spot {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  font-size: 80px;
+}
+
+#spaceContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
+}
+
+#restartButton {
+  margin-left: 500px;
+}
+
+#gameBoard {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
